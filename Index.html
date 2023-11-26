@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/premium-photo/early-morning-airport-apron_527900-213.jpg?size=626&ext=jpg&uid=R126083771&ga=GA1.1.1271105620.1696502475&semt=ais) ;
+            background-size: cover;
+            
+            
+
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .relate{
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+        }
+        .box{
+            height: 300px;
+            width: 400px;
+           
+            border-radius: 10px;
+            margin-left: 1100px;
+            margin-top: 20px;
+            background-color: transparent;
+            
+        }
+        input{
+            height: 30px;
+            width: 200px;
+            border-radius: 10px;
+        }
+        select{
+            height: 30px;
+            width: 200px;
+            border-radius: 10px; 
+        }
+        .ticket_booking{
+    height: 30px;
+    width: 100px;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:#00192D;
+
+    color: white;
+
+}
+.btnlg{
+    
+    display: flex;
+            position: relative;
+            justify-content: space-between;
+            margin-left: 39px;
+}
+.relate button{
+    background-color: white; 
+    color:#00192D ;
+     
+      border-radius: 10px; 
+      margin-top: 5px; 
+      font-size:medium ;
+      padding: 6px 15px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #00192D;
+    margin-top: 300px;
+}
+
+    </style>
+</head>
+<body>
+    <div style="height: 50px; width: 100%; background-color:#00192D;">
+        <div class="relate">
+    <h1 style="color: white; margin-left: 50px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">MyTrip</h2>
+        
+       <div>
+
+     
+        <button ><a href="/login">Signup</a></button>
+        <button ><a href="/Signup">Login</a></button>
+    </div>
+</div>
+        
+    
+
+    
+    </div>
+    <!-- <img src="Flight.jpg" height="609px" width="100%"/> -->
+    <h1 style="margin-left: 550px; font-style:inherit;">Book Flight &#9992</h1>
+    <div class="box">
+    <form action="/submit" method="post">
+            
+        <div class="form_container">
+            <input type="text" placeholder="Name" name="name" /><br><br>
+            <input type="text" placeholder="Email" name="email"/><br><br>
+        </div>
+        <div class="form_container">
+            <input type="text" placeholder="From" class="name" name="from"/><br><br>
+            <input type="text" placeholder="To" class="email" name="to"/><br><br>
+        </div>
+        
+        <div class="form_container">
+            <input type="date" placeholder="To" class="date" name="date"/><br><br>
+            <select  name="opt">
+            <option value="">Upper</option>
+            <option value="">Lower</option>
+            <option value="">Business</option>
+            </select>
+        </div>
+        
+
+        <button class="ticket_booking" >
+           Book Now 
+        </button>
+
+    </form>
+ 
+    </div>
+    <div class="footer">
+<h1 style="color: white;">Author:-Shivam Chaurasiya</h1>
+    </div>
+  
+    
+</body>
+
+</html>
